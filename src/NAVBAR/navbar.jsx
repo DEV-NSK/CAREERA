@@ -79,7 +79,7 @@ const Navbar = () => {
         </div>
         
         {/* Search Bar */}
-        <div className="relative mr-6">
+        {/* <div className="relative mr-6">
           <input
             type="text"
             placeholder="Search..."
@@ -99,7 +99,7 @@ const Navbar = () => {
               d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
             ></path>
           </svg>
-        </div>
+        </div> */}
         
         {/* Auth Buttons */}
         <div className="flex items-center space-x-4">
@@ -172,7 +172,7 @@ const Navbar = () => {
 
       {/* Mobile Menu Dropdown */}
       {mobileMenuOpen && (
-        <div className="absolute top-full left-0 right-0 bg-base-100 shadow-lg border-t border-base-200 md:hidden z-50">
+        <div className="absolute  top-full left-0 right-0 bg-base-100 shadow-lg border-t border-base-200 md:hidden z-50">
           <div className="px-4 py-3 space-y-2">
             <Link 
               to="/" 
@@ -215,9 +215,9 @@ const Navbar = () => {
               </>
             )}
             
-            <div className="border-t border-base-200 my-2"></div>
+            {/* <div className="border-t border-base-200 my-2"></div> */}
             
-            <div className="px-4 py-2">
+            {/* <div className="px-4 py-2">
               <div className="relative">
                 <input
                   type="text"
@@ -239,9 +239,9 @@ const Navbar = () => {
                   ></path>
                 </svg>
               </div>
-            </div>
+            </div> */}
             
-            <div className="border-t border-base-200 my-2"></div>
+            {/* <div className="border-t border-base-200 my-2"></div> */}
             
             <div className="px-4 py-2 space-y-2">
               {!user ? (
